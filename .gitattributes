@@ -1,0 +1,9 @@
+text=auto
+
+target/**/*.md eol=crlf
+doc/** eol=crlf
+
+*.md eol=crlf
+
+LICENSE.txt eol=crlf
+
