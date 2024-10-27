@@ -30,8 +30,7 @@ First member of model defines a category that represents possible outcomes a sys
 
 Second member of model defines a set of categories to be used by features.
 
-Third member of model defines a set of features and their respective situations, where each feature represents an intended behavior of system, and each situation represents
-when that behavior is expected.
+Third member of model defines a set of features and their respective situations, where each feature represents an intended behavior of system, and each situation represents when that behavior is expected.
 
 ### Built-in categories
 Represents traits of outside world around system:
