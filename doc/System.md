@@ -15,7 +15,7 @@ Maintainer describes tasks that are performed continuously in order to keep syst
     - Module        (Must contain at least one structure/reader/writer/function/
                      module - if it contains structures, it must be possible to
                      explicitly set structure states for testing purposes)
-    - Structure     (A basic structure with public fields and no methods)
+    - Structure     (A basic structure with only public getter and setter methods, and an implementation-defined layout)
     - Reader        (Function that both takes no arguments, and outputs structure
                      containing info from world - cannot contain any testable logic)
     - Writer        (Function that takes a single structure as an argument, and
