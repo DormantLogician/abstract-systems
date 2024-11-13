@@ -1,0 +1,25 @@
+"Turnstile"
+
+"""
+Outcome category
+"""
+Outcome (Locked, Unlocked)
+
+"""
+Other categories
+"""
+State (Locked, Unlocked)
+Action (InsertCoin, Push)
+
+"""
+Features
+"""
+(State, Action) -> Locked
+    (Unlocked, Push)
+    (Locked, Push)
+
+(State, Action) -> Unlocked
+    (Locked, InsertCoin)
+    (Unlocked, InsertCoin)
+
+
