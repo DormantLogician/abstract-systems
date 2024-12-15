@@ -24,7 +24,7 @@ and evidence that definitively and/or probabalisticly supports solution's effect
 Incremental part of a solution's implementation.
 
 #### Priority
-Measure of how important an issue is based on damage caused.
+Measure of how important an issue is.
 
 #### Cost
 Amount of resource units from pool of resources that are needed to implement a specific solution and its solution units.
