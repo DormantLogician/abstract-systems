@@ -18,7 +18,7 @@ Analyzer has ability to test system with a specific configuration - it has confi
     - Unit              (Either A strongly/weakly typed integer, or a decimal type, smart pointer
                          class, or non-structure class from outside of project)
     - Structure         (Either a unit, or a class with only public getter and setter methods,
-                         constructors, and if inside a public module, and implementation-defined
+                         constructors, and if inside a public module, an implementation-defined
                          data layout - it must be possible to explicitly set unit and/or structure
                          states for testing purposes if not a unit. Non-unit structures may only
                          non-virtually inherit from one or more other structures)
